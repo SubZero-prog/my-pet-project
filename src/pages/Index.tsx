@@ -42,7 +42,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button
               size="lg"
-              className="bg-gold hover:bg-gold/90 text-background"
+              className="bg-blue hover:bg-blue/90 text-background"
               onClick={() => navigate('/investment-solutions')}
             >
               Start Investing
@@ -51,7 +51,7 @@ const Index = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-gold text-gold hover:bg-gold hover:text-background"
+              className="border-blue text-blue hover:bg-blue hover:text-background"
               onClick={() => navigate('/research')}
             >
               Learn More
@@ -65,8 +65,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="glass-card p-8 reveal">
-              <LineChart className="h-12 w-12 text-gold mb-6" />
-              <h3 className="font-playfair text-xl font-semibold mb-4">
+              <LineChart className="h-12 w-12 text-blue mb-6" />
+              <h3 className="font-roboto text-xl font-semibold mb-4">
                 Data-Driven Insights
               </h3>
               <p className="text-foreground/80">
@@ -75,8 +75,8 @@ const Index = () => {
             </div>
             
             <div className="glass-card p-8 reveal">
-              <ShieldCheck className="h-12 w-12 text-gold mb-6" />
-              <h3 className="font-playfair text-xl font-semibold mb-4">
+              <ShieldCheck className="h-12 w-12 text-blue mb-6" />
+              <h3 className="font-roboto text-xl font-semibold mb-4">
                 Enterprise Security
               </h3>
               <p className="text-foreground/80">
@@ -85,8 +85,8 @@ const Index = () => {
             </div>
             
             <div className="glass-card p-8 reveal">
-              <Lightbulb className="h-12 w-12 text-gold mb-6" />
-              <h3 className="font-playfair text-xl font-semibold mb-4">
+              <Lightbulb className="h-12 w-12 text-blue mb-6" />
+              <h3 className="font-roboto text-xl font-semibold mb-4">
                 Educational Resources
               </h3>
               <p className="text-foreground/80">

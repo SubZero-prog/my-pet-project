@@ -53,10 +53,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        gold: "#FFD700",
+        blue: "#1E88C6",
       },
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
+        roboto: ["Roboto", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       keyframes: {

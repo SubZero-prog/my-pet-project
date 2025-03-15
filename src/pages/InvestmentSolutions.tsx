@@ -21,7 +21,7 @@ const InvestmentSolutions = () => {
             </p>
           </div>
           <div className="bg-secondary p-6 rounded-lg glass-card">
-            <PieChart className="w-full h-64 text-gold" />
+            <PieChart className="w-full h-64 text-blue" />
             <p className="text-center text-sm text-foreground/60 mt-4">
               Sample asset allocation visualization
             </p>
@@ -35,40 +35,40 @@ const InvestmentSolutions = () => {
           <h2 className="heading-lg text-center mb-12">Investment Options</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="glass-card p-8 hover:shadow-xl transition-all duration-300 reveal">
-              <PieChart className="h-12 w-12 text-gold mb-6" />
-              <h3 className="font-playfair text-xl font-semibold mb-4">
+              <PieChart className="h-12 w-12 text-blue mb-6" />
+              <h3 className="font-roboto text-xl font-semibold mb-4">
                 Crypto Index Funds
               </h3>
               <p className="text-foreground/80 mb-6">
                 Diversified exposure to the largest digital assets by market capitalization. Our professionally managed portfolios provide broad market coverage.
               </p>
-              <Button variant="outline" className="mt-auto w-full border-gold text-gold hover:bg-gold hover:text-background">
+              <Button variant="outline" className="mt-auto w-full border-blue text-blue hover:bg-blue hover:text-background">
                 Learn More
               </Button>
             </div>
             
             <div className="glass-card p-8 hover:shadow-xl transition-all duration-300 reveal">
-              <Coins className="h-12 w-12 text-gold mb-6" />
-              <h3 className="font-playfair text-xl font-semibold mb-4">
+              <Coins className="h-12 w-12 text-blue mb-6" />
+              <h3 className="font-roboto text-xl font-semibold mb-4">
                 Direct Cryptocurrency Investments
               </h3>
               <p className="text-foreground/80 mb-6">
                 Secure and regulated access to individual digital assets. Invest directly in Bitcoin, Ethereum, and other leading cryptocurrencies.
               </p>
-              <Button variant="outline" className="mt-auto w-full border-gold text-gold hover:bg-gold hover:text-background">
+              <Button variant="outline" className="mt-auto w-full border-blue text-blue hover:bg-blue hover:text-background">
                 Learn More
               </Button>
             </div>
             
             <div className="glass-card p-8 hover:shadow-xl transition-all duration-300 reveal">
-              <DollarSign className="h-12 w-12 text-gold mb-6" />
-              <h3 className="font-playfair text-xl font-semibold mb-4">
+              <DollarSign className="h-12 w-12 text-blue mb-6" />
+              <h3 className="font-roboto text-xl font-semibold mb-4">
                 Stablecoin Yield Strategies
               </h3>
               <p className="text-foreground/80 mb-6">
                 Generate yield on USD-pegged stablecoins through our carefully vetted, institutional-grade lending platforms and protocols.
               </p>
-              <Button variant="outline" className="mt-auto w-full border-gold text-gold hover:bg-gold hover:text-background">
+              <Button variant="outline" className="mt-auto w-full border-blue text-blue hover:bg-blue hover:text-background">
                 Learn More
               </Button>
             </div>
@@ -77,7 +77,7 @@ const InvestmentSolutions = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
             <Button
               size="lg"
-              className="bg-gold hover:bg-gold/90 text-background"
+              className="bg-blue hover:bg-blue/90 text-background"
             >
               Explore Plans
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -85,7 +85,7 @@ const InvestmentSolutions = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-gold text-gold hover:bg-gold hover:text-background"
+              className="border-blue text-blue hover:bg-blue hover:text-background"
             >
               Talk to an Expert
               <MessageSquare className="ml-2 h-5 w-5" />

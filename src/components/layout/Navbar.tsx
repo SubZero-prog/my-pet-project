@@ -32,7 +32,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="font-playfair text-2xl font-bold text-gradient">
+            <Link to="/" className="font-roboto text-2xl font-bold text-gradient">
               NexGen Assets
             </Link>
           </div>
@@ -44,7 +44,7 @@ export const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="outline" className="border-gold text-gold hover:bg-gold hover:text-background">
+            <Button variant="outline" className="border-blue text-blue hover:bg-blue hover:text-background">
               Start Investing
             </Button>
           </div>
@@ -76,7 +76,7 @@ export const Navbar = () => {
               ))}
               <Button
                 variant="outline"
-                className="w-full mt-4 border-gold text-gold hover:bg-gold hover:text-background"
+                className="w-full mt-4 border-blue text-blue hover:bg-blue hover:text-background"
               >
                 Start Investing
               </Button>
