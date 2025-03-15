@@ -29,7 +29,7 @@ export const HiringModal = () => {
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className="glass-card">
         <DialogHeader>
-          <DialogTitle className="font-playfair text-2xl text-gradient">
+          <DialogTitle className="font-roboto text-2xl text-gradient">
             We're Hiring: Remote Assistant Position Available!
           </DialogTitle>
         </DialogHeader>
@@ -42,7 +42,7 @@ export const HiringModal = () => {
               Maybe Later
             </Button>
             <Button 
-              className="bg-gold hover:bg-gold/90 text-background"
+              className="bg-blue hover:bg-blue/90 text-white"
               onClick={handleViewPositions}
             >
               View Open Positions

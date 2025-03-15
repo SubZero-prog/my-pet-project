@@ -80,23 +80,23 @@ const Company = () => {
           <div className="glass-card p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-4">
               <div className="p-4 text-center">
-                <Sparkles className="h-10 w-10 text-gold mx-auto mb-2" />
-                <h3 className="font-playfair text-lg font-semibold mb-1">Innovation</h3>
+                <Sparkles className="h-10 w-10 text-blue mx-auto mb-2" />
+                <h3 className="font-roboto text-lg font-semibold mb-1">Innovation</h3>
                 <p className="text-sm text-foreground/80">Pioneering new approaches to digital asset management</p>
               </div>
               <div className="p-4 text-center">
-                <Users className="h-10 w-10 text-gold mx-auto mb-2" />
-                <h3 className="font-playfair text-lg font-semibold mb-1">Accessibility</h3>
+                <Users className="h-10 w-10 text-blue mx-auto mb-2" />
+                <h3 className="font-roboto text-lg font-semibold mb-1">Accessibility</h3>
                 <p className="text-sm text-foreground/80">Making digital assets available to all investors</p>
               </div>
               <div className="p-4 text-center">
-                <BarChart className="h-10 w-10 text-gold mx-auto mb-2" />
-                <h3 className="font-playfair text-lg font-semibold mb-1">Transparency</h3>
+                <BarChart className="h-10 w-10 text-blue mx-auto mb-2" />
+                <h3 className="font-roboto text-lg font-semibold mb-1">Transparency</h3>
                 <p className="text-sm text-foreground/80">Clear, honest reporting on all investments</p>
               </div>
               <div className="p-4 text-center">
-                <Users className="h-10 w-10 text-gold mx-auto mb-2" />
-                <h3 className="font-playfair text-lg font-semibold mb-1">Education</h3>
+                <Users className="h-10 w-10 text-blue mx-auto mb-2" />
+                <h3 className="font-roboto text-lg font-semibold mb-1">Education</h3>
                 <p className="text-sm text-foreground/80">Empowering investors with knowledge</p>
               </div>
             </div>
@@ -119,8 +119,8 @@ const Company = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="font-playfair text-xl font-semibold mb-1">{member.name}</h3>
-                  <p className="text-gold font-medium mb-3">{member.title}</p>
+                  <h3 className="font-roboto text-xl font-semibold mb-1">{member.name}</h3>
+                  <p className="text-blue font-medium mb-3">{member.title}</p>
                   <p className="text-foreground/80 text-sm">{member.bio}</p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ const Company = () => {
 
           <div className="mt-12 text-center">
             <Button
-              className="bg-gold hover:bg-gold/90 text-background"
+              className="bg-blue hover:bg-blue/90 text-white"
               onClick={() => navigate('/careers')}
             >
               Explore Job Openings

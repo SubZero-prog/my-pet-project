@@ -100,7 +100,7 @@ const Careers = () => {
           <h2 className="heading-lg text-center mb-12">Open Positions</h2>
           <div className="overflow-x-auto">
             <table className="w-full bg-background rounded-lg overflow-hidden">
-              <thead className="bg-gold text-background">
+              <thead className="bg-blue text-white">
                 <tr>
                   <th className="py-4 px-6 text-left">Position</th>
                   <th className="py-4 px-6 text-left">Department</th>
@@ -121,7 +121,7 @@ const Careers = () => {
                     <td className="py-4 px-6">{job.type}</td>
                     <td className="py-4 px-6 text-right">
                       <Button 
-                        className="bg-gold hover:bg-gold/90 text-background"
+                        className="bg-blue hover:bg-blue/90 text-white"
                         onClick={() => handleApply(job.id)}
                       >
                         Apply Now
@@ -141,22 +141,22 @@ const Careers = () => {
         <h2 className="heading-lg text-center mb-12">Application Process</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="glass-card p-8 text-center reveal">
-            <div className="bg-gold text-background w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">1</div>
-            <h3 className="font-playfair text-xl font-semibold mb-4">Apply Online</h3>
+            <div className="bg-blue text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">1</div>
+            <h3 className="font-roboto text-xl font-semibold mb-4">Apply Online</h3>
             <p className="text-foreground/80">
               Submit your application through our online form. Include your resume and tell us why you're interested in joining NexGen Assets.
             </p>
           </div>
           <div className="glass-card p-8 text-center reveal">
-            <div className="bg-gold text-background w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">2</div>
-            <h3 className="font-playfair text-xl font-semibold mb-4">Interview Process</h3>
+            <div className="bg-blue text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">2</div>
+            <h3 className="font-roboto text-xl font-semibold mb-4">Interview Process</h3>
             <p className="text-foreground/80">
               Qualified candidates will be invited for interviews with our team. This typically includes 2-3 rounds of discussions.
             </p>
           </div>
           <div className="glass-card p-8 text-center reveal">
-            <div className="bg-gold text-background w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">3</div>
-            <h3 className="font-playfair text-xl font-semibold mb-4">Welcome Aboard</h3>
+            <div className="bg-blue text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">3</div>
+            <h3 className="font-roboto text-xl font-semibold mb-4">Welcome Aboard</h3>
             <p className="text-foreground/80">
               Successful candidates will receive a job offer and join our team. We provide a comprehensive onboarding program to get you started.
             </p>
