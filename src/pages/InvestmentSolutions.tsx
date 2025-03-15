@@ -3,6 +3,14 @@ import { ArrowRight, PieChart, Coins, DollarSign, MessageSquare } from 'lucide-r
 import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
+import { 
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter
+} from '@/components/ui/card';
 
 const InvestmentSolutions = () => {
   return (
@@ -34,44 +42,65 @@ const InvestmentSolutions = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="heading-lg text-center mb-12">Investment Options</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="glass-card p-8 hover:shadow-xl transition-all duration-300 reveal">
-              <PieChart className="h-12 w-12 text-blue mb-6" />
-              <h3 className="font-roboto text-xl font-semibold mb-4">
-                Crypto Index Funds
-              </h3>
-              <p className="text-foreground/80 mb-6">
-                Diversified exposure to the largest digital assets by market capitalization. Our professionally managed portfolios provide broad market coverage.
-              </p>
-              <Button variant="outline" className="mt-auto w-full border-blue text-blue hover:bg-blue hover:text-background">
-                Learn More
-              </Button>
-            </div>
+            {/* Card 1 */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 reveal flex flex-col h-full">
+              <CardHeader>
+                <PieChart className="h-12 w-12 text-blue mb-2" />
+                <CardTitle className="font-roboto text-xl font-semibold">
+                  Crypto Index Funds
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex-grow">
+                <p className="text-foreground/80">
+                  Diversified exposure to the largest digital assets by market capitalization. Our professionally managed portfolios provide broad market coverage.
+                </p>
+              </CardContent>
+              <CardFooter className="pt-4 mt-auto">
+                <Button variant="outline" className="w-full border-blue text-blue hover:bg-blue hover:text-background">
+                  Learn More
+                </Button>
+              </CardFooter>
+            </Card>
             
-            <div className="glass-card p-8 hover:shadow-xl transition-all duration-300 reveal">
-              <Coins className="h-12 w-12 text-blue mb-6" />
-              <h3 className="font-roboto text-xl font-semibold mb-4">
-                Direct Cryptocurrency Investments
-              </h3>
-              <p className="text-foreground/80 mb-6">
-                Secure and regulated access to individual digital assets. Invest directly in Bitcoin, Ethereum, and other leading cryptocurrencies.
-              </p>
-              <Button variant="outline" className="mt-auto w-full border-blue text-blue hover:bg-blue hover:text-background">
-                Learn More
-              </Button>
-            </div>
+            {/* Card 2 */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 reveal flex flex-col h-full">
+              <CardHeader>
+                <Coins className="h-12 w-12 text-blue mb-2" />
+                <CardTitle className="font-roboto text-xl font-semibold">
+                  Direct Cryptocurrency Investments
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex-grow">
+                <p className="text-foreground/80">
+                  Secure and regulated access to individual digital assets. Invest directly in Bitcoin, Ethereum, and other leading cryptocurrencies.
+                </p>
+              </CardContent>
+              <CardFooter className="pt-4 mt-auto">
+                <Button variant="outline" className="w-full border-blue text-blue hover:bg-blue hover:text-background">
+                  Learn More
+                </Button>
+              </CardFooter>
+            </Card>
             
-            <div className="glass-card p-8 hover:shadow-xl transition-all duration-300 reveal">
-              <DollarSign className="h-12 w-12 text-blue mb-6" />
-              <h3 className="font-roboto text-xl font-semibold mb-4">
-                Stablecoin Yield Strategies
-              </h3>
-              <p className="text-foreground/80 mb-6">
-                Generate yield on USD-pegged stablecoins through our carefully vetted, institutional-grade lending platforms and protocols.
-              </p>
-              <Button variant="outline" className="mt-auto w-full border-blue text-blue hover:bg-blue hover:text-background">
-                Learn More
-              </Button>
-            </div>
+            {/* Card 3 */}
+            <Card className="glass-card hover:shadow-xl transition-all duration-300 reveal flex flex-col h-full">
+              <CardHeader>
+                <DollarSign className="h-12 w-12 text-blue mb-2" />
+                <CardTitle className="font-roboto text-xl font-semibold">
+                  Stablecoin Yield Strategies
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex-grow">
+                <p className="text-foreground/80">
+                  Generate yield on USD-pegged stablecoins through our carefully vetted, institutional-grade lending platforms and protocols.
+                </p>
+              </CardContent>
+              <CardFooter className="pt-4 mt-auto">
+                <Button variant="outline" className="w-full border-blue text-blue hover:bg-blue hover:text-background">
+                  Learn More
+                </Button>
+              </CardFooter>
+            </Card>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-12">
