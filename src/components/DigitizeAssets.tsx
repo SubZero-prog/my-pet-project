@@ -29,11 +29,11 @@ export const DigitizeAssets = () => {
         </div>
         
         <div className="hidden md:block relative h-96 overflow-hidden rounded-xl reveal">
-          {/* Female agent on phone image */}
+          {/* Customer support agent image */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue/30 to-transparent mix-blend-overlay"></div>
           <img 
-            src="/woman-on-phone.jpg" 
-            alt="Financial agent on phone" 
+            src="/lovable-uploads/03cd5d5c-814d-4820-9757-ef8fb2bb19f7.png" 
+            alt="Customer support agent with headset" 
             className="w-full h-full object-cover"
             onError={(e) => {
               // Fallback to placeholder if image doesn't load
