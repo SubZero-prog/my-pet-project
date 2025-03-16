@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight, LineChart, ShieldCheck, Lightbulb } from 'lucide-react';
@@ -6,6 +7,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { HiringModal } from '@/components/HiringModal';
 import { TrustedByPartners } from '@/components/TrustedByPartners';
+import { ArticlesInsight } from '@/components/ArticlesInsight';
 
 const Index = () => {
   const navigate = useNavigate();
@@ -99,6 +101,9 @@ const Index = () => {
 
       {/* Trusted By Partners Section */}
       <TrustedByPartners />
+
+      {/* Articles & Insight Section */}
+      <ArticlesInsight />
 
       <Footer />
     </div>
