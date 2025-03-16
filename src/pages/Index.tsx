@@ -8,6 +8,7 @@ import { Footer } from '@/components/layout/Footer';
 import { HiringModal } from '@/components/HiringModal';
 import { TrustedByPartners } from '@/components/TrustedByPartners';
 import { ArticlesInsight } from '@/components/ArticlesInsight';
+import { DigitizeAssets } from '@/components/DigitizeAssets';
 
 const Index = () => {
   const navigate = useNavigate();
@@ -104,6 +105,9 @@ const Index = () => {
 
       {/* Articles & Insight Section */}
       <ArticlesInsight />
+
+      {/* Digitize Assets Section */}
+      <DigitizeAssets />
 
       <Footer />
     </div>
